@@ -1,0 +1,26 @@
+install ack
+install ghc
+install cabal-install
+install hicolor-icon-theme
+install highlight
+install imagemagick
+install node
+install pkg-config
+install postgresql
+install rbenv
+install readline
+install wget
+install coreutils
+install ruby-build
+install nmap
+
+cask google-chrome
+cask firefox
+cask slack
+cask macvim
+cask paw
+cask alfred
+cask boot2docker
+cask dropbox
+cask grabbox
+cask licecap
