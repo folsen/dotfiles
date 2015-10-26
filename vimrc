@@ -1,7 +1,6 @@
 "' Starting up pathogen
 call pathogen#infect()
 
-
 ""
 "" Customisations
 ""
@@ -19,9 +18,6 @@ let g:molokai_original=1
 " Makes Cmd-Shift-Left/Right switch between tabs
 map <D-S-Left> gT
 map <D-S-Right> gt
-
-" Nerdcommenter comment lines
-map <D-7> ,ci
 
 " <Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
