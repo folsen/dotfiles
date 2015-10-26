@@ -49,9 +49,9 @@ set vb
 " .ejs is HTML
 au BufNewFile,BufRead,BufEnter *.ejs setf html
 
-" Use fancy fonts for powerline
-let g:Powerline_symbols = 'fancy'
-set guifont=Menlo\ for\ Powerline
+" Use fancy fonts for airline
+let g:airline_powerline_fonts = 1
+set laststatus=2
 
 " Emulate TextMate CMD-Enter
 inoremap <D-CR> <C-O>o
@@ -79,7 +79,7 @@ au BufRead,BufNewFile *.slim set filetype=slim
 au FileType elm nmap <leader>m <Plug>(elm-make)
 
 " Set fontsize
-set guifont=Menlo:h13
+set guifont=Meslo\ LG\ M\ for\ Powerline:h13
 
 set textwidth=0 wrapmargin=0
 let g:solarized_visibility = "high"
