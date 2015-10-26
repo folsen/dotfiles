@@ -1,0 +1,5 @@
+rm ~/.vimrc
+rm ~/.zshrc
+rm ~/.tmux.conf
+rm ~/.tmux
+rm ~/.vim
