@@ -70,9 +70,6 @@
 [submodule "vim/bundle/rust.vim"]
 	path = vim/bundle/rust.vim
 	url = https://github.com/wting/rust.vim.git
-[submodule "vim/bundle/scala"]
-	path = vim/bundle/scala
-	url = https://github.com/bdd/vim-scala.git
 [submodule "vim/bundle/scss"]
 	path = vim/bundle/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
