@@ -110,7 +110,7 @@ source '/Users/folsen/google-cloud-sdk/path.zsh.inc'
 source '/Users/folsen/google-cloud-sdk/completion.zsh.inc'
 
 # load rebenv
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 # Load docker vars
 # eval "$(docker-machine env dev)"

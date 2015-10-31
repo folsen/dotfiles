@@ -50,6 +50,7 @@ set vb
 au BufNewFile,BufRead,BufEnter *.ejs setf html
 
 " Use fancy fonts for airline
+set guifont=Meslo\ LG\ M\ for\ Powerline:h12
 let g:airline_powerline_fonts = 1
 set laststatus=2
 
@@ -78,9 +79,6 @@ au BufRead,BufNewFile *.slim set filetype=slim
 " map elm-make to ,m
 au FileType elm nmap <leader>m <Plug>(elm-make)
 
-" Set fontsize
-set guifont=Meslo\ LG\ M\ for\ Powerline:h13
-
 set textwidth=0 wrapmargin=0
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
@@ -93,3 +91,6 @@ set expandtab
 
 " Use the default system clipboard
 set clipboard=unnamed
+
+" Save notes (vim-notes) in dropbox
+let g:notes_directories = ['~/Dropbox/Notes']
