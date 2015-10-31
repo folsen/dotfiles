@@ -105,11 +105,12 @@ export PATH=$PATH:$GOPATH/bin
 # export ANSIBLE_HOSTS=~/ansible_hosts
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/folsen/google-cloud-sdk/path.zsh.inc'
+# source '/Users/folsen/google-cloud-sdk/path.zsh.inc'
 # The next line enables bash completion for gcloud.
-source '/Users/folsen/google-cloud-sdk/completion.zsh.inc'
+# source '/Users/folsen/google-cloud-sdk/completion.zsh.inc'
 
 # load rebenv
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # Load docker vars
