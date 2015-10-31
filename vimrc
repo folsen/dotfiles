@@ -94,3 +94,9 @@ set clipboard=unnamed
 
 " Save notes (vim-notes) in dropbox
 let g:notes_directories = ['~/Dropbox/Notes']
+
+" don't fold things by default
+set nofoldenable
+
+" make vim2hs not conceal things and turn them into unicode
+let g:haskell_conceal = 0
