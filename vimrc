@@ -100,3 +100,9 @@ set nofoldenable
 
 " make vim2hs not conceal things and turn them into unicode
 let g:haskell_conceal = 0
+
+" Ag.vim should always search from project root
+let g:ag_working_path_mode="r"
+
+" Don't run pylint every save
+let g:pymode_lint_on_write = 0

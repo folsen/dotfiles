@@ -112,9 +112,6 @@
 [submodule "vim/bundle/vim-slim"]
 	path = vim/bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim.git
-[submodule "vim/bundle/vim-wakatime"]
-	path = vim/bundle/vim-wakatime
-	url = https://github.com/wakatime/vim-wakatime.git
 [submodule "vim/bundle/vim2hs"]
 	path = vim/bundle/vim2hs
 	url = https://github.com/dag/vim2hs.git
@@ -124,9 +121,6 @@
 [submodule "powerline-fonts"]
 	path = powerline-fonts
 	url = https://github.com/powerline/fonts.git
-[submodule "vim/bundle/vim-notes"]
-	path = vim/bundle/vim-notes
-	url = https://github.com/xolox/vim-notes
 [submodule "vim/bundle/vim-misc"]
 	path = vim/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc
