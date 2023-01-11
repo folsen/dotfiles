@@ -2,3 +2,4 @@ tmux/resurrect/
 vim/_temp
 vim/_backup
 vim/_undo
+nvim/plugin/packer_compiled.lua
